@@ -1,0 +1,54 @@
+  .button {
+    & {
+    
+      color: var(--while-color);
+      background: var(--blue-color);
+      font-family: inherit;
+      
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.875;
+      letter-spacing: 0.06em;
+
+      
+      cursor: pointer;
+      border-radius: 4px;
+      box-shadow: var(--sing-color);
+      border: none;
+    
+      transition: color, 
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+      font-family: inherit;
+      font-style: normal;
+      align-items: center;
+      text-align: center;
+
+    }
+    &:hover,
+    &:focus{
+      color: var(--while-color);
+      background-color: var(--light-blue);
+      border: none;
+    }
+  }
+
+  .button__hero{
+    padding: 10px 32px;
+  } 
+
+
+  .button__footer {
+    display: flex;
+    width: 200px;
+    padding: 10px 29px;
+    margin-right: 0;  
+    height: 50px;
+  }
+
+  .button__checkbox{
+    padding: 10px 55px;
+    align-self: center;
+    margin-top: 40px;
+  }

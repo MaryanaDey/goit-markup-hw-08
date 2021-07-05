@@ -1,0 +1,13 @@
+
+.visually-hidden {
+    /* appearance: none; */
+    position: absolute;
+    width: 1px;
+    height: 1px !important;
+    margin: -1px;
+    padding: 0 !important;
+    overflow: hidden;
+    border: 0 !important;
+    clip: rect(0 0 0 0);    
+  }  
+  

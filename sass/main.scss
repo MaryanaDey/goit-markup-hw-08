@@ -1,0 +1,31 @@
+@import './vendor/normolize';
+
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/placeholders';
+
+@import './basse/contanier';
+@import './basse/common';
+
+
+@import './components/button';
+@import './components/title';
+@import './components/social';
+@import './components/logo';
+@import './components/backdrop';
+@import './components/form';
+
+
+@import './loyault/page-header';
+@import './loyault/nav';
+@import './loyault/hero';
+@import './loyault/about';
+@import './loyault/what-we-do';
+@import './loyault/section-team';
+@import './loyault/section-clients';
+@import './loyault/footer.scss';
+@import './loyault/nav-menu';
+@import './loyault/section-card';
+
+
+

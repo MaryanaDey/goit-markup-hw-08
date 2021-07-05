@@ -1,0 +1,48 @@
+.what-we-do {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
+.what-we-do__item{
+  display: flex; 
+}
+
+
+.working-list{
+  &{
+    display: flex;  
+  } 
+    .working-list__card {
+      margin-right: var(--card-set-feature);
+      margin-top: 50px;}
+    .working-list__card:nth-child(3n){
+      margin-right: 0;
+    }
+  }
+
+
+.work-meta{
+  position: relative;
+  width: 100%;
+}
+
+.work-meta__text {
+  color: var(--while-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+ 
+  background: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  height: 70px;
+  padding-top: 27px;
+  
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}

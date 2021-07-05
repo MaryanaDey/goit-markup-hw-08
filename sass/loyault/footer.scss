@@ -1,0 +1,142 @@
+.footer {
+  background: var(--footer-color); ;
+  padding: 60px 0;
+}
+
+.footer-contanier {
+  display: flex;
+  align-items: baseline;
+}
+
+.address {
+  color: #FFFFFF;
+  font-style: normal;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71; 
+  letter-spacing: 0.03em;
+}
+  
+.footer-form {
+    margin-left: 93px;
+}
+  
+.footer-form .footer-form__subscribe {
+    display: flex;
+}
+  
+.footer-adress {
+  color: var(--while-color);
+  margin-bottom: 9px;
+  margin-top: 20px;
+    
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+  
+
+.address {
+  color: #FFFFFF;
+  font-style: normal;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71; 
+  letter-spacing: 0.03em;
+}
+
+  .contact-footer {
+    color: var(--light-grey);
+    margin-bottom: 9px;
+    font-style: normal;
+  }
+  
+  .join {
+    margin-left: 70px;
+  }
+
+  .join__title {
+    margin-bottom: 20px;
+    color: var(--while-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.143;
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  
+  
+  .footer-form__title {
+    color: var(--while-color);
+    
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  
+  .footer-form__subscribe {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .icon-telegram{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  
+  .join-footer-form {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+  
+  .footer-input-form {
+    width: 358px;
+    background-color: var(--black-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+  }
+  
+  
+  
+  .footer-input{
+    margin-right: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 358px;
+    background-color: var(--dark-background-color);
+    padding: 15px 16px;
+    margin-top: 20px;
+  }
+  
+
+  .social-icon__footer {
+    & {
+      display: flex;
+      align-items: baseline;
+      margin: 0;
+    }
+    & .social-icon__item{
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+  
