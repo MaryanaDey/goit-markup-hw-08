@@ -37,20 +37,25 @@
                     <use href="./images/icons/sprite.svg#icon-smartphpne"></use></svg>
                   <a class="auth-list__phone" href="tel:+380991111111">+38 096 111 11 11</a></li>
             </ul> -->
-            <button type="button" class="menu-open">o</button>
+            <button type="button" class="menu-open">
+              <svg width="18px" height="18px"><use href="./images/icons/sprite.svg#icon-menu"></use></svg> 
+            </button>
         </div>
 
-          <div class="mabile-nav">
-            <button type="button"  class="menu-close">x</button>
+          <div class="mobile-nav is-hidden">
+            <div class="container">
+            <button type="button"  class="menu-close">
+               <svg width="24px" height="16px"><use href="./images/icons/sprite.svg#icon-close"></use></svg> 
+            </button>
 
           <nav>
             <ul class="mobile-menu list">
               <li class="mobile-menu__item">
-                <a href="" class="mobile-menu__link link">Студия</a>
+                <a href="./index.htm" class="mobile-menu__link link">Студия</a>
               </li>
 
               <li class="mobile-menu__item">
-                <a href="" class="mobile-menu__link link">Портфолио</a>
+                <a href="./portofolio.html" class="mobile-menu__link link">Портфолио</a>
               </li>
               
 
@@ -59,7 +64,8 @@
             </ul>
           </nav>
 
-        
+        <div class="mobile-nav__bottom">
+          <div class="menu-nav">
             <ul class="mobile-contacts list">
               <li class="mobile-menu__item">
                 <a href="" class="mobile-contacts__link link">+38 096 111 11 11</a>
@@ -87,9 +93,9 @@
                 <a href="" class="mobile-media__link link">Twitter</a>
               </li>
             </ul>
-          
         </div>
-
+        </div>
+      </div>
 </header>
 
 
@@ -100,53 +106,60 @@
         <h1 class="hero__titile">Эффективные решения <br>для вашего бизнеса</h1>
         <button class="button   button__hero" type="button"  data-open-modal>Заказать услугу</button>
         </div>
-    </section> -->
+    </section>  -->
 
     <!--Преимущества-->
-    <!-- <section class="about">
+     <section class="about">
     <div class="contanier">
-
        <!-- <h2>Особенности</h2>--> 
 
-       <!-- <ul class="feature-list">
+        <ul class="feature-list">
             <li class="feature--list__item">
-              <svg class="feature-list__icon">
+              <div class="feature-list__icon--decor">
+              <svg  width="70px" height="70px" >
                 <use href="./images/my-icon/sprite.svg#icon-antenna"  width="70" height="70"></use>
              </svg>
+            </div>
                 <h3 class="feature-list__title">Внимание к деталям</h3>
                 <p class="feature-list__text">Идейные соображения, а также начало повседневной
                    работы по формированию позиции.</p>
             </li>
 
             <li class="feature--list__item">
-              <svg class="feature-list__icon ">
+              <div class="feature-list__icon--decor">
+              <svg  width="70px" height="70px">
                 <use href="./images/my-icon/sprite.svg#icon-my-clock" width="70" height="70"></use>
              </svg>
+            </div>
                 <h3 class="feature-list__title">Пунктуальность</h3>
                 <p class="feature-list__text">Задача организации, в особенности же рамки и место 
                    обучения кадров влечет за собой.</p>
             </li>
 
             <li class="feature--list__item">
-               <svg class="feature-list__icon ">
+              <div class="feature-list__icon--decor">
+               <svg  width="70px" height="70px">
                  <use href="./images/my-icon/sprite.svg#icon-diagram" width="70" height="70"></use>
                 </svg>
+              </div>
                 <h3 class="feature-list__title">Планирование</h3>   
                 <p class="feature-list__text">Равным образом консультация с широким активом в 
                    значительной степени обуславливает.</p>
             </li>
 
             <li class="feature--list__item">
-              <svg class="feature-list__icon">
+              <div class="feature-list__icon--decor">
+              <svg  width="70px" height="70px">
                 <use href="./images/my-icon/sprite.svg#icon-astronaut" width="70" height="70"></use>
              </svg>
+            </div>
                 <h3 class="feature-list__title">Современные технологии</h3>
                 <p class="feature-list__text">Значимость этих проблем настолько очевидна,
                    что реализация плановых заданий.</p>
             </li>
          </ul>
       </div>
-    </section>  -->
+    </section> 
 
   <!--Чем мы занимаемся-->
     <!-- <section class="what-we-do">
@@ -187,7 +200,7 @@
 
     <!--Примеры работ-->
 
-    <!-- <section class="section-team">
+    <section class="section-team">
        <div class="contanier">
         <h2 class="title">Наша команда</h2>
 
@@ -306,9 +319,9 @@
               
             </ul>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="section-clients">
+     <section class="section-clients">
       <div class="contanier">
         <h2 class="title">Постоянные клиенты</h2>
 
@@ -351,12 +364,12 @@
         </div> 
      </div>
    
- </section> -->
+ </section>
 </main>
 
 <!--Футер-->
 
-<!-- <footer class="footer">
+<footer class="footer">
     <div class="contanier">
       <div class="footer-contanier">
 
@@ -403,7 +416,7 @@
           </ul>
           
         </div><!--join-footer-->
-<!-- 
+
             <div class="footer-form">
               <b class="footer-form__title">Подпишитесь на рассылку</b>
                 <form class="footer-form__subscribe">
@@ -417,7 +430,7 @@
             </div>
       </div>
       </div> 
-    </footer> --> 
+    </footer>
 
     <!-- <div class="backdrop is-hidden" data-backdrop> 
       <div class="modal">
@@ -490,6 +503,7 @@
     </div> -->
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
      
  </body>
 </html>

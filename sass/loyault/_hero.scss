@@ -1,8 +1,10 @@
 .hero {
     margin: auto;
-    width: 1600px; 
+    // width: 1600px; 
     padding: 200px 0;
-    background: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)), url(../images/clients/Img.jpg); 
+    width: 100vw;
+    // background: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)), url(../images/clients/Img.jpg); 
+    background: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)), url(/images/mobile/Header1x.jpg);
     background-color:  #C4C4C4;
     background-size: cover;
     background-repeat: no-repeat;

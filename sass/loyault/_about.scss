@@ -1,12 +1,24 @@
 .about {
-  @extend  %padding;
+  // @extend  %padding;
     // padding-top: 94px;
     // padding-bottom: 94px;
+     padding-top: 60px;
+     padding-bottom:60px;
+     @media screen and (min-width: 1200px) {
+      padding-top: 94px;
+      padding-bottom: 94px;
+     }
   }
   
   .feature-list {
-    &{
-      display: flex;  
+    // & {
+    //   display: flex;  
+    // }
+    margin-bottom: -30px;
+    @media screen and (min-width: 768px){
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -30px;
     }
     &__item{
          margin-right: var(--card-set-feature);
@@ -14,6 +26,23 @@
     
   }
 
+ 
+  .feature--list__item {
+    & {// margin-right: 30px;
+      width: 100%;
+      margin-bottom: 30px;
+      @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 60px) / 2);
+        margin-left: 30px;
+      }
+      @media screen and (min-width: 1200px) {
+        flex-basis: calc((100% - 120px) / 4);
+      }
+    }
+    &:nth-child(4) {
+      margin-right: 0;
+    }
+  }
 
 .feature-list {
     & .card:nth-child(4n) {
@@ -31,6 +60,8 @@
     
     line-height: 1.714;
     letter-spacing: 0.03em;
+
+    
   }
   
   .feature-list__title {
@@ -42,32 +73,33 @@
     line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: center;
+    @media screen and (min-width: 768px) {
+      text-align: left;
+    }
   }
   
-  .feature-list__icon
-    {
-    width:270px;
-    height: 120px;
-    margin-bottom: 30px;
-    padding: 25px 100px;
-    
-    background-color: #f5f4fa;
+  .feature-list__icon--decor {
+    & {
+      @extend %flex-align;
+    // background: var(--grey-background-color);
+    background: #f5f4fa;
     border-radius: 4px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 30px;
+    }
+    &:hover {
+      fill:var(--pretty-color);
+    }
   }
 
 
-  .feature-list__icon:hover {
-    fill:var(--pretty-color);
-  }
 
   
-
-  .feature--list__item {
-    margin-right: 30px;
-  }
-
-  .feature--list__item:nth-child(4){
-  margin-right: 0;
-  }
   

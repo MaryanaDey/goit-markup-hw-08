@@ -4,8 +4,24 @@
 }
 
 .footer-contanier {
-  display: flex;
+  // display: flex;
   align-items: baseline;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer-logo {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .address {
@@ -17,10 +33,24 @@
   font-size: 14px;
   line-height: 1.71; 
   letter-spacing: 0.03em;
+
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
   
 .footer-form {
-    margin-left: 93px;
+    // margin-left: 93px;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   @media screen and (min-width: 1200px) {
+     width: 358px;
+     margin-left: 93px;
+     align-items: flex-start;
+   }
 }
   
 .footer-form .footer-form__subscribe {
@@ -58,7 +88,14 @@
   }
   
   .join {
-    margin-left: 70px;
+    // margin-left: 70px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 60px;
+   @media screen and (min-width: 1200px)  {
+   margin-left: 70px;
+   }
   }
 
   .join__title {
@@ -86,6 +123,13 @@
   .footer-form__subscribe {
     display: flex;
     align-items: baseline;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      flex-direction: row;
+    }
   }
   
   .icon-telegram{
@@ -122,10 +166,18 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    width: 358px;
+    // width: 358px;
+    width: 100%;
     background-color: var(--dark-background-color);
     padding: 15px 16px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    @media screen and (min-width: 768px) {
+      width: 450px;
+    }
+    @media screen and (min-width: 1200px) {
+    width: 358px;
+    }
   }
   
 
@@ -134,9 +186,8 @@
       display: flex;
       align-items: baseline;
       margin: 0;
-    }
-    & .social-icon__item{
+  }
+    & .social-icon__item {
       background-color: rgba(255, 255, 255, 0.1);
     }
   }
-  
