@@ -15,8 +15,13 @@
     color: var(--while-color);
     margin-bottom: 40px;
     font-weight: 900;
-    font-size: 44px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    font-size: 26px;
+    line-height: 42px;
+    @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 60px;
+    }
   }

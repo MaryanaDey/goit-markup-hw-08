@@ -101,12 +101,12 @@
 
 <!-- Основная секция -->
 <main>
-  <!-- <section class="hero">
+   <section class="hero">
         <div class="contanier">
         <h1 class="hero__titile">Эффективные решения <br>для вашего бизнеса</h1>
         <button class="button   button__hero" type="button"  data-open-modal>Заказать услугу</button>
         </div>
-    </section>  -->
+    </section> 
 
     <!--Преимущества-->
      <section class="about">
@@ -207,7 +207,21 @@
       <ul class="card-team">
 
             <li class="card-team__list">
-                <img class="card-team__img" src="./images/img1.jpg" alt="Игорь Демьяненко" width="270">
+
+              <picture>
+
+                <source srcset="./images/mobile/photo1-min.jpg 1x, ./images/mobile/photo1-2x-min.jpg 2x"
+                media="(min-width: 1200px)">
+
+                <source srcset="./images/mobile/photo1-desktop-min.jpg 1x, ./images/mobile/photo1-desktop-2x-min.jpg 2x"
+                  media="(min-width: 768px)">
+
+                <source srcset="./images/mobile/photo1-mobil-min.jpg 1x, ./images/mobile/photo1-mobil-2x-min.jpg 2x"
+                  media="(min-width: 320px)">
+
+                <img src="./images/photo1-min.jpg" alt="Технокряк" />
+              </picture>
+
                 <h3 class="card-team__title">Игорь Демьяненко</h3>
                 <p  class="card-team__label">Product Designer</p>
 
@@ -242,7 +256,19 @@
    
 
             <li class="card-team__list">
-                <img class="card-team__img" src="./images/img2.jpg" alt="Ольга Репина" width="270">
+
+              <picture>
+
+                <source srcset="./images/mobile/photo2-min.jpg 1x, ./images/mobile/photo2-2x-min.jpg 2x" media="(min-width: 1200px)">
+
+                <source srcset="./images/mobile/photo2-desktop-min.jpg 1x, ./images/mobile/photo2-desktop-2x-min.jpg 2x" media="(min-width: 768px)">
+
+                <source srcset="./images/mobile/photo2-mobil-min.jpg 1x, ./images/mobile/photo2-mobil-2x-min.jpg 2x" media="(min-width: 320px)">
+
+                <img src="./images/photo2-min.jpg" alt="Технокряк" />
+              </picture>
+
+  
                 <h3 class="card-team__title">Ольга Репина</h3>
                 <p class="card-team__label">Frontend Developer</p>
 
@@ -270,7 +296,19 @@
          
 
             <li class="card-team__list">
-                <img class="card-team__img" src="./images/img3.jpg" alt="Николай Тарасов" width="270">
+
+              <picture>
+
+                <source srcset="./images/mobile/photo3-min.jpg 1x, ./images/mobile/photo3-2x-min.jpg 2x" media="(min-width: 1200px)">
+
+                <source srcset="./images/mobile/photo3-desktop-min.jpg 1x, ./images/mobile/photo3-desktop-2x-min.jpg 2x" media="(min-width: 768px)">
+
+                <source srcset="./images/mobile/photo3-mobil-min.jpg 1x, ./images/mobile/photo3-mobil-2x-min.jpg 2x" media="(min-width: 320px)">
+
+                <img src="./images/photo3-min.jpg" alt="Технокряк" />
+              </picture>
+
+                <!-- <img class="card-team__img" src="./images/img3.jpg" alt="Николай Тарасов" width="270"> -->
                 <h3 class="card-team__title">Николай Тарасов</h3>
                 <p class="card-team__label">Marketing</p>
 
@@ -295,7 +333,19 @@
             
 
                 <li class="card-team__list">
-                <img class="card-team__img" src="./images/img4.jpg" alt="Михаил Ермаков" width="270">
+
+                  <picture>
+
+                    <source srcset="./images/mobile/photo4-min.jpg 1x, ./images/mobile/photo4-2x-min.jpg 2x" media="(min-width: 1200px)">
+
+                    <source srcset="./images/mobile/photo4-desktop-min.jpg 1x, ./images/mobile/photo4-desktop-2x-min.jpg 2x" media="(min-width: 768px)">
+
+                    <source srcset="./images/mobile/photo4-mobil-min.jpg 1x, ./images/mobile/photo4-mobil-2x-min.jpg 2x" media="(min-width: 320px)">
+
+                    <img src="./images/photo4-min.jpg" alt="Технокряк" />
+                  </picture>
+
+                <!-- <img class="card-team__img" src="./images/img4.jpg" alt="Михаил Ермаков" width="270"> -->
                 <h3 class="card-team__title">Михаил Ермаков</h3>
                 <p class="card-team__label">UI Designer</p>
 
@@ -321,50 +371,50 @@
         </div>
     </section>
 
-     <section class="section-clients">
-      <div class="contanier">
-        <h2 class="title">Постоянные клиенты</h2>
-
-        <div class="clients">
-          <div class="my-client"> 
-            <svg class="my-client__svg">
-              <use href="./images/clients/spriteclient.svg#icon-Client1"></use>
-            </svg>
-          </div>
-   
-          <div class="my-client"> 
-            <svg class="my-client__svg">
-              <use href="./images/clients/spriteclient.svg#icon-Client2"></use>
-            </svg>
-          </div>
-      
-          <div class="my-client"> 
-            <svg class="my-client__svg">
-              <use href="./images/clients/spriteclient.svg#icon-Client3"></use>
-            </svg>
-          </div>
-        
-          <div class="my-client"> 
-            <svg class="my-client__svg">
-              <use href="./images/clients/spriteclient.svg#icon-Client4"></use>
-            </svg>
-          </div>
-  
-          <div class="my-client"> 
-            <svg class="my-client__svg">
-              <use href="./images/clients/spriteclient.svg#icon-Client5"></use>
-            </svg>
-          </div>
-
-          <div class="my-client"> 
-            <svg class="my-client__svg">
-              <use href="./images/clients/spriteclient.svg#icon-Client6"></use>
-            </svg>
-          </div>
-        </div> 
-     </div>
-   
- </section>
+      <section class="client">
+        <div class="contanier">
+          <h2 class="title">Постоянные клиенты</h2>
+          <ul class="client__list">
+            <li class="client__icon">
+              <a href="#" class="client__link">
+                <svg width="106" height="60">
+                    <use href="./images/clients/spriteclient.svg#icon-Client1">
+                  </use></svg></a>
+            </li>
+            <li class="client__icon">
+              <a href="#" class="client__link">
+                <svg width="106" height="60">
+                    <use href="./images/clients/spriteclient.svg#icon-Client2">
+                  </use></svg></a>
+            </li>
+            <li class="client__icon">
+              <a href="#" class="client__link">
+                <svg width="106" height="60">
+                  <!-- <use href="./images/logo/icons.svg#icon-Logo3"> -->
+                    <use href="./images/clients/spriteclient.svg#icon-Client3">
+                  </use></svg></a>
+            </li>
+            <li class="client__icon">
+              <a href="#" class="client__link">
+                <svg width="106" height="60">
+                    <use href="./images/clients/spriteclient.svg#icon-Client4">
+                  </use></svg></a>
+            </li>
+            <li class="client__icon">
+              <a href="#" class="client__link">
+                <svg width="106" height="60">
+                    <use href="./images/clients/spriteclient.svg#icon-Client5">
+                  </use></svg></a>
+            </li>
+            <li class="client__icon">
+              <a href="#" class="client__link">
+                <svg width="106" height="60">
+                    <use href="./images/clients/spriteclient.svg#icon-Client6">
+                  </use></svg></a>
+            </li>
+          </ul>
+        </div>
+      </section>
 </main>
 
 <!--Футер-->

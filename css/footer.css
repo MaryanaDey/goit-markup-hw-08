@@ -18,7 +18,6 @@
 @media screen and (min-width: 1200px) {
   .footer-contanier {
     display: flex;
-    justify-content: space-between;
   }
 }
 

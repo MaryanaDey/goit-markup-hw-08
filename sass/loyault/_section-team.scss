@@ -25,10 +25,15 @@
     @media screen and (min-width: 768px) {
       flex-basis: calc((100% - 60px) / 2);
       margin-left: 30px;
+      margin-bottom: 30px;
     }
     @media screen and (min-width: 1200px) {
       flex-basis: calc((100% - 120px) / 4);
     }
+  }
+.card-team__list:nth-child(3),
+  .card-team__list:nth-child(4) {
+   margin-bottom: 0;
   }
 
   .card-team .card-team__li:nth-child(4){
@@ -59,12 +64,20 @@
   .card-team  {
     & .card-team__list{
         // margin-right: var(--card-set-feature);
-        margin-top: 30px;
+        // margin-top: 30px;
         padding-bottom: 30px;
         
         background: var(--while-color);
         border-radius: 0px 0px 4px 4px;
-        transform: scale(1) ;  
+        transform: scale(1) ; 
+        margin-bottom: 30px; 
+    }
+    & .card-team__list:nth-child(3),
+    .card-team__list:nth-child(4){
+      margin-bottom: 0; 
+      @media screen and (min-width: 1200px) {
+        margin-bottom: 30px; 
+      }
     }
     & .card-team__list:hover{
        box-shadow: var(--feature-card-shadow);
