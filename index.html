@@ -18,15 +18,15 @@
 <header class="header">
     <div class="contanier main-nav">
         <a class="logo" href="#"><span class="logo__web">Web</span><span class="logo__studio">Studio</span></a>
-        <!-- <nav class="">
+         <nav class="">
           <ul class="nav-list">
              <li class="nav-list__item"><a class="nav-list__link  current" href="index.html">Студия</a></li>
              <li class="nav-list__item"><a class="nav-list__link" href="portfolio.html">Портфолио</a></li>
              <li class="nav-list__item"><a class="nav-list__link" href="contacts.html">Контакты</a></li>
           </ul>
-            </nav> -->
+            </nav> 
             
-            <!-- <ul class="auth-list">
+            <ul class="auth-list">
                 <li class="auth-list__item">
                   <svg class="auth-list__icon" width="16" height="12">
                     <use href="./images/icons/sprite.svg#icon-envelopeo"></use></svg>
@@ -36,17 +36,18 @@
                   <svg class="auth-list__icon" width="10" height="16">
                     <use href="./images/icons/sprite.svg#icon-smartphpne"></use></svg>
                   <a class="auth-list__phone" href="tel:+380991111111">+38 096 111 11 11</a></li>
-            </ul> -->
-            <button type="button" class="menu-open">
-              <svg width="18px" height="18px"><use href="./images/icons/sprite.svg#icon-menu"></use></svg> 
-            </button>
-        </div>
-
-          <div class="mobile-nav is-hidden">
-            <div class="container">
-            <button type="button"  class="menu-close">
-               <svg width="24px" height="16px"><use href="./images/icons/sprite.svg#icon-close"></use></svg> 
-            </button>
+            </ul> 
+            
+            <div class="mobil">
+              <button type="button" class="menu-open">
+                 <svg width="18px" height="18px"><use href="./images/icons/sprite.svg#icon-menu"></use></svg> 
+              </button>
+              <!-- <div class="mobile-nav is-hidden"> -->
+            <div class="mobile-nav is-hidden ">
+              <div class="container">
+                <button type="button"  class="menu-close">
+                   <svg width="24px" height="16px"><use href="./images/icons/sprite.svg#icon-close"></use></svg> 
+                </button>
 
           <nav>
             <ul class="mobile-menu list">
@@ -66,33 +67,41 @@
 
         <div class="mobile-nav__bottom">
           <div class="menu-nav">
+
             <ul class="mobile-contacts list">
+
               <li class="mobile-menu__item">
-                <a href="" class="mobile-contacts__link link">+38 096 111 11 11</a>
+                <a href="" class="mobile-contacts__tel link">+38 096 111 11 11</a>
               </li>
 
               <li class="mobile-menu__item">
-                <a href="" class="mobile-contacts__link link">info@devstudio.com</a>
+                <a href="" class="mobile-contacts__mail link">info@devstudio.com</a>
               </li>
             </ul>
 
-            <ul class="mobile-media list">
-              <li class="mobile-media__item">
-                <a href="" class="mobile-media__link link">Instagram</a>
+           
+              <ul class="mobile-social list">
+
+              <li class="mobile-social__item">
+                <a href="" class="mobile-social__link link">Instagram</a>
               </li>
 
-              <li class="mobile-menu__item">
-                <a href="" class="mobile-media__link link">Facebook</a>
+              <li class="mobile-social__item">
+                <a href="" class="mobile-social__link link">Facebook</a>
               </li>
 
-              <li class="mobile-menu__item">
-                <a href="" class="mobile-media__link link">Twitter</a>
+              <li class="mobile-social__item">
+                <a href="" class="mobile-social__link link">Twitter</a>
               </li>
 
-              <li class="mobile-menu__item">
-                <a href="" class="mobile-media__link link">Twitter</a>
+              <li class="mobile-social__item">
+                <a href="" class="mobile-social__link link">Twitter</a>
               </li>
+
             </ul>
+            
+          </div>
+          </div>
         </div>
         </div>
       </div>
@@ -106,7 +115,7 @@
         <h1 class="hero__titile">Эффективные решения <br>для вашего бизнеса</h1>
         <button class="button   button__hero" type="button"  data-open-modal>Заказать услугу</button>
         </div>
-    </section> 
+    </section>  
 
     <!--Преимущества-->
      <section class="about">
@@ -162,7 +171,7 @@
     </section> 
 
   <!--Чем мы занимаемся-->
-    <!-- <section class="what-we-do">
+     <section class="what-we-do">
        <div class="contanier">
         <h2 class="title">Чем мы занимаемся</h2>
 
@@ -196,7 +205,7 @@
           </li>
         </ul>
     </div>
-    </section>  -->
+    </section>  
 
     <!--Примеры работ-->
 
@@ -219,7 +228,7 @@
                 <source srcset="./images/mobile/photo1-mobil-min.jpg 1x, ./images/mobile/photo1-mobil-2x-min.jpg 2x"
                   media="(min-width: 320px)">
 
-                <img src="./images/photo1-min.jpg" alt="Технокряк" />
+                <img src="./images/photo1-min.jpg" alt="Игорь Демьяненко" />
               </picture>
 
                 <h3 class="card-team__title">Игорь Демьяненко</h3>
@@ -265,7 +274,7 @@
 
                 <source srcset="./images/mobile/photo2-mobil-min.jpg 1x, ./images/mobile/photo2-mobil-2x-min.jpg 2x" media="(min-width: 320px)">
 
-                <img src="./images/photo2-min.jpg" alt="Технокряк" />
+                <img src="./images/photo2-min.jpg" alt="Ольга Репина" />
               </picture>
 
   
@@ -305,10 +314,9 @@
 
                 <source srcset="./images/mobile/photo3-mobil-min.jpg 1x, ./images/mobile/photo3-mobil-2x-min.jpg 2x" media="(min-width: 320px)">
 
-                <img src="./images/photo3-min.jpg" alt="Технокряк" />
+                <img src="./images/photo3-min.jpg" alt="Николай Тарасов" />
               </picture>
 
-                <!-- <img class="card-team__img" src="./images/img3.jpg" alt="Николай Тарасов" width="270"> -->
                 <h3 class="card-team__title">Николай Тарасов</h3>
                 <p class="card-team__label">Marketing</p>
 
@@ -342,10 +350,10 @@
 
                     <source srcset="./images/mobile/photo4-mobil-min.jpg 1x, ./images/mobile/photo4-mobil-2x-min.jpg 2x" media="(min-width: 320px)">
 
-                    <img src="./images/photo4-min.jpg" alt="Технокряк" />
+                    <img src="./images/photo4-min.jpg" alt="Михаил Ермаков" />
                   </picture>
 
-                <!-- <img class="card-team__img" src="./images/img4.jpg" alt="Михаил Ермаков" width="270"> -->
+              
                 <h3 class="card-team__title">Михаил Ермаков</h3>
                 <p class="card-team__label">UI Designer</p>
 
@@ -482,7 +490,7 @@
       </div> 
     </footer>
 
-    <!-- <div class="backdrop is-hidden" data-backdrop> 
+     <div class="backdrop is-hidden" data-backdrop> 
       <div class="modal">
         <button class="modal__button"  data-close-modal>
          
@@ -550,7 +558,7 @@
              <button type="submit" class="button button__checkbox">Отправить</button>
             </form>
       </div>
-    </div> -->
+    </div> 
 
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>

@@ -3,13 +3,73 @@
     // width: 1600px; 
     padding: 200px 0;
     width: 100vw;
-    // background: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)), url(../images/clients/Img.jpg); 
-    background: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)), url(/images/mobile/Header1x.jpg);
+    background: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)), 
+    url('/images/header/background-mobil-min.jpg');
     background-color:  #C4C4C4;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+        url('/images/header/background-mobil-2x-min.jpg');
+    }
   }
+
+  @media screen and (min-width: 481px) {
+    max-width: 768px;
+    background: {
+      size: cover;
+      repeat: no-repeat;
+      position: center;
+      image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url('/images/header/background-desktop-min.jpg');
+    }
+  }
+
+  @media (min-device-pixel-ratio: 2) and (min-width: 481px),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url('/images/header/background-desktop-2x-min.jpg');
+    }
+  }
+  @media screen and (min-width: 769px) {
+    max-width: 1600px;
+    background: {
+      size: cover;
+      repeat: no-repeat;
+      position: center;
+      image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url('/images/header/background-min.jpg');
+    }
+  }
+  @media (min-device-pixel-ratio: 2) and (min-width: 769px),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+        url('/images/header/background-2x-min.jpg');
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
+
   
   .hero__titile {
     color: var(--while-color);
@@ -19,7 +79,8 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     font-size: 26px;
-    line-height: 42px;
+    line-height: 1.615;
+    
     @media screen and (min-width: 1200px) {
     font-size: 44px;
     line-height: 60px;

@@ -1,0 +1,134 @@
+.mobil{
+    @media screen and (min-width: 767px) {
+      display: none;
+  }
+}
+ 
+.mobile-nav {
+  position: absolute;
+  background-color: var( --while-color);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  
+.container {
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin-top: -32px;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+  @media screen and (min-width: 430px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+
+.mobile-menu__item {
+    margin-top: 32px;
+  }
+
+.menu-open {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border: none;
+   background: none;
+  }
+
+  .menu-close {
+    position: fixed;
+    right: 15px;
+    top: 20px;
+    border: none;
+    background: none;
+  }
+
+  
+ .mobile-menu__link {
+    color: #212121;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.175;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+
+
+  .mobile-contacts__tel {
+    color:  var(--pretty-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.176;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+  
+  .mobile-contacts__mail {
+    color: #757575;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.167;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+
+  .mobile-social {
+    display: flex;
+    margin-top: 64px;
+}
+
+  
+.mobile-social__link {
+    color:  var(--pretty-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.222;
+    letter-spacing: 0.02em;
+  
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+  }
+
+  .mobile-social__link:nth-child(4) {
+    margin-right: 0;
+    border-right: none;
+  }
+  
+  .mobile-nav.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .mobile-menu__link:hover,
+  .menu-open:hover,
+  .menu-open:focus,
+  .menu-close:hover,
+  .menu-close:focus {
+    color: var(--pretty-color);
+    fill: var(--pretty-color);
+    cursor: pointer;
+  }
+  
+  .mobile-social__link:nth-child(4) {
+    margin-right: 0;
+    border: none;
+  }

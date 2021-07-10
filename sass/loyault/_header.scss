@@ -1,0 +1,13 @@
+.header{
+    @extend %flex-align;
+    width: 100%; 
+    background-color: #fff;
+    min-height: 80px;
+    .container {
+      display: flex;
+      align-items: center;
+      @media screen and (max-width: 768px) {
+        justify-content: space-between;
+      }
+    }
+  }

@@ -1,12 +1,12 @@
 (() => {
     const refs = {
       openMenuBtn: document.querySelector('.menu-open'),
-      closeMenulBtn: document.querySelector('.menu-close'),
+      closeMenuBtn: document.querySelector('.menu-close'),
       menu: document.querySelector('.mobile-nav'),
     };
   
-    refs.openMenulBtn.addEventListener('click', toggleMenu);
-    refs.closeMenulBtn.addEventListener('click', toggleMenu);
+    refs.openMenuBtn.addEventListener('click', toggleMenu);
+    refs.closeMenuBtn.addEventListener('click', toggleMenu);
   
     function toggleMenu() {
       refs.menu.classList.toggle('is-hidden');

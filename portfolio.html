@@ -15,38 +15,102 @@
 <body>
 
 <!--Шапка-->
-
+       
 <header class="header">
     <div class="contanier main-nav">
         <a class="logo" href="#"><span class="logo__web">Web</span><span class="logo__studio">Studio</span></a>
-        
-        <!-- <nav>
-            <ul class="nav-list">
-                <li class="nav-list__item"><a class="nav-list__link" href="index.html">Студия</a></li>
-                <li class="nav-list__item"><a class="nav-list__link current" href="portfolio.html">Портфолио</a></li>
-                <li class="nav-list__item"><a class="nav-list__link" href="contacts.html">Контакты</a></li>
+         <nav class="">
+          <ul class="nav-list">
+             <li class="nav-list__item"><a class="nav-list__link" href="index.html">Студия</a></li>
+             <li class="nav-list__item"><a class="nav-list__link current" href="portfolio.html">Портфолио</a></li>
+             <li class="nav-list__item"><a class="nav-list__link" href="contacts.html">Контакты</a></li>
+          </ul>
+            </nav> 
+            
+            <ul class="auth-list">
+                <li class="auth-list__item">
+                  <svg class="auth-list__icon" width="16" height="12">
+                    <use href="./images/icons/sprite.svg#icon-envelopeo"></use></svg>
+                  <a class="auth-list__mail" href="mailto:info@example.com">info@devstudio.com</a></li>
+
+                <li class=" auth-list__item" >
+                  <svg class="auth-list__icon" width="10" height="16">
+                    <use href="./images/icons/sprite.svg#icon-smartphpne"></use></svg>
+                  <a class="auth-list__phone" href="tel:+380991111111">+38 096 111 11 11</a></li>
+            </ul> 
+            
+            <div class="mobil">
+              <button type="button" class="menu-open">
+                 <svg width="18px" height="18px"><use href="./images/icons/sprite.svg#icon-menu"></use></svg> 
+              </button>
+              <!-- <div class="mobile-nav is-hidden"> -->
+            <div class="mobile-nav is-hidden ">
+              <div class="container">
+                <button type="button"  class="menu-close">
+                   <svg width="24px" height="16px"><use href="./images/icons/sprite.svg#icon-close"></use></svg> 
+                </button>
+
+          <nav>
+            <ul class="mobile-menu list">
+              <li class="mobile-menu__item">
+                <a href="./index.htm" class="mobile-menu__link link">Студия</a>
+              </li>
+
+              <li class="mobile-menu__item">
+                <a href="./portofolio.html" class="mobile-menu__link link">Портфолио</a>
+              </li>
+              
+
+              <li class="mobile-menu__item"></li>
+              <a href="" class="mobile-menu__link link">Контакты</a>
             </ul>
-        </nav>
+          </nav>
 
+        <div class="mobile-nav__bottom">
+          <div class="menu-nav">
 
-        <ul class="auth-list">
-            <li class="auth-list__item">
-              <svg class="auth-list__icon" width="16" height="12">
-                <use href="./images/icons/sprite.svg#icon-envelopeo"></use></svg>
-              <a class="phone-link mail" href="mailto:info@example.com">info@devstudio.com</a></li>
+            <ul class="mobile-contacts list">
 
-            <li class=" auth-list__item" >
-              <svg class="auth-list__icon" width="10" height="16">
-                <use href="./images/icons/sprite.svg#icon-smartphpne"></use></svg>
-              <a class="phone-link phone" href="tel:+380991111111">+38 096 111 11 11</a></li>
-        </ul>
-    </div> -->
+              <li class="mobile-menu__item">
+                <a href="" class="mobile-contacts__tel link">+38 096 111 11 11</a>
+              </li>
 
+              <li class="mobile-menu__item">
+                <a href="" class="mobile-contacts__mail link">info@devstudio.com</a>
+              </li>
+            </ul>
+
+           
+              <ul class="mobile-social list">
+
+              <li class="mobile-social__item">
+                <a href="" class="mobile-social__link link">Instagram</a>
+              </li>
+
+              <li class="mobile-social__item">
+                <a href="" class="mobile-social__link link">Facebook</a>
+              </li>
+
+              <li class="mobile-social__item">
+                <a href="" class="mobile-social__link link">Twitter</a>
+              </li>
+
+              <li class="mobile-social__item">
+                <a href="" class="mobile-social__link link">Twitter</a>
+              </li>
+
+            </ul>
+            
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
 </header>
 
 
 <main>
-    <!-- <section class="nav-menu">
+     <section class="nav-menu">
         <div class="contanier">
 
             <ul class="nav-menu-list">
@@ -58,7 +122,7 @@
             </ul>
 
         </div>
-    </section> -->
+    </section>
 
     <section class="section-card">
         <div class="contanier">
@@ -298,10 +362,11 @@
                                             media="(min-width: 768px)">
                                         <source srcset="./images/portfolio/port9-mobil-min.jpg 1x, ./images/portfolio/port9-mobil-2x-min.jpg 2x"
                                             media="(min-width: 320px)">
+
                                         <img src="./images/img13.jpg" alt="Технокряк">
-                                    </div>
+                                    
                                     </picture>
-                           
+                                </div>
                             <h2 class="prodact__name">Growing Business</h2>
                             <p class="prodact__grup">Приложение</p>
                         </a>
