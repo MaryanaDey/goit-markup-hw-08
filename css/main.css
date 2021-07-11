@@ -770,7 +770,13 @@ textarea:focus {
 
 @media screen and (min-width: 767px) {
   .main-nav {
-    align-items: initial;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-nav {
+    align-items: center;
   }
 }
 
@@ -824,6 +830,7 @@ textarea:focus {
   align-items: center;
   color: var(--grey-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 767px) {
@@ -864,8 +871,14 @@ textarea:focus {
 
 .nav-list {
   display: flex;
-  margin-left: 93px;
+  margin-left: 88px;
   justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-list {
+    margin-left: 93px;
+  }
 }
 
 .nav-list .nav-list__item {
@@ -952,9 +965,6 @@ textarea:focus {
   padding-top: 48px;
   padding-bottom: 48px;
   margin-top: -32px;
-  display: flex;
-  justify-content: space-between;
-  height: 100%;
 }
 
 @media screen and (min-width: 430px) {
@@ -1443,7 +1453,6 @@ textarea:focus {
   .footer-contanier {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
   }
 }
 
@@ -1457,7 +1466,6 @@ textarea:focus {
   margin-bottom: 60px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .address {
