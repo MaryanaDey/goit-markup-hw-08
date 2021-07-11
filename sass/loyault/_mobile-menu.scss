@@ -1,8 +1,10 @@
 .mobil{
     @media screen and (min-width: 767px) {
       display: none;
+      
+    }
   }
-}
+
  
 .mobile-nav {
   & {
@@ -12,6 +14,8 @@
     left: 0;
     width: 100vw;
     height: 100vh;
+    position: fixed;
+    z-index: 5;
  }
   .container {
     position: relative;
